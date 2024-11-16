@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag</title>
+</head>
+<body> 
+    <div>
+    <form>
+    Personsl details <br>
+    <label for="salutation">Salutation<br>
+        <select>
+          <option>--None--</option>
+          <option>Mr.</option>
+          <option>Mrs.</option>
+        </select>
+      </label> <br>
+      First Name:<input type="text"> <br>
+<br>
+      Last  Name:<input type="text"><br>
+      <br> 
+      Gender: <input type="radio" name="gender">Male <input type="radio" name="gender">Female <br>
+email:<input type="email"><br>
+ Date of birth:<input type="date"> <br>
+ <label for="submit"><br>
+    <input type="submit">
+  </label>
+    </form>
+    </div>
+</body>
+</html>
